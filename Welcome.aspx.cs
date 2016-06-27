@@ -27,7 +27,7 @@ public partial class Welcome : System.Web.UI.Page
                 using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
                 {
 
-                    sda.Fill(dsCatRate);
+                 //   sda.Fill(dsCatRate);
                 }
             }
             DataTable dtCatRate = new DataTable();
